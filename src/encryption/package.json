@@ -1,0 +1,25 @@
+{
+  "name": "action-plus-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@lit-protocol/auth-helpers": "^6.4.0",
+    "@lit-protocol/lit-auth-client": "^6.4.0",
+    "@lit-protocol/lit-node-client": "^6.4.0",
+    "@lit-protocol/types": "^6.4.0",
+    "@types/node": "^20.12.8",
+    "crypto": "^1.0.1",
+    "ethers": "^5.7.1",
+    "jsonwebtoken": "^9.0.2",
+    "siwe": "^2.3.2"
+  },
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

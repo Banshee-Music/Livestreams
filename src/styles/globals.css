@@ -1,0 +1,50 @@
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styles if needed */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+/* Button.module.css */
+.button {
+  background-color: #ccc; /* Light grey background */
+  color: black; /* Black text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding inside the button */
+  text-align: center; /* Center text */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px; /* Margin around the button */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button:hover {
+  background-color: #aaa; /* Darker grey when hovered */
+}
+
+.button:active {
+  background-color: #888; /* Even darker grey when clicked */
+}
+
+/* globals.css */
+.title {
+  text-align: center;
+  font-size: 36px; /* Adjust size as needed */
+  margin-top: 20px; /* Adds some space at the top */
+  font-weight: bold; /* Makes the text bold */
+}
+

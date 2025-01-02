@@ -1,0 +1,42 @@
+{
+  "name": "Banshee Music",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@lit-protocol/auth-helpers": "^6.0.2",
+    "@lit-protocol/lit-node-client": "^6.0.2",
+    "@lit-protocol/types": "^6.0.2",
+    "@livepeer/react": "^4.1.16",
+    "@privy-io/react-auth": "^1.72.0",
+    "@tanstack/react-query": "^5.35.1",
+    "@wagmi/core": "^2.9.1",
+    "caniuse-lite": "^1.0.30001690",
+    "connectkit": "^1.7.3",
+    "ethers": "^5.7.2",
+    "lit-js-sdk": "^1.1.250",
+    "livepeer": "^3.0.2",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "siwe": "^2.3.2",
+    "viem": "^2.10.1",
+    "wagmi": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
