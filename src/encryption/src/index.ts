@@ -17,9 +17,9 @@ const chain = "moonbase alpha";
 
 const accessControlConditions = [
     {
-      contractAddress: '0x1bdBcc6b0Ad296B0b49a488b922b451eDEFb60b0',
+      contractAddress: '0x36acc03e62941C8B76c094f65142f7D0CfaAee37',
       standardContractType: 'ERC721',
-      chain: 'moonbase alpha',
+      chain: 'amoy',
       method: 'balanceOf',
       parameters: [':currentActionIpfsId'],
       returnValueTest: {
