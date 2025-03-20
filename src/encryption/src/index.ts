@@ -13,7 +13,7 @@ import crypto from 'crypto';
 const key = 'c2602e8b-2123-452d-b27e-200c62e2b63d';
 const litActionIpfsId = "QmT5Vi5byp1vcjE9gkxdWYz3zmScg3BBoM5wnWcUEqXiF7";
 
-const chain = "moonbase alpha";
+const chain = "amoy";
 
 const accessControlConditions = [
     {
