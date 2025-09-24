@@ -13,13 +13,13 @@ import crypto from 'crypto';
 const key = 'c2602e8b-2123-452d-b27e-200c62e2b63d';
 const litActionIpfsId = "QmT5Vi5byp1vcjE9gkxdWYz3zmScg3BBoM5wnWcUEqXiF7";
 
-const chain = "amoy";
+const chain = "";
 
 const accessControlConditions = [
     {
-      contractAddress: '0x36acc03e62941C8B76c094f65142f7D0CfaAee37',
+      contractAddress: '',
       standardContractType: 'ERC721',
-      chain: 'amoy',
+      chain: '',
       method: 'balanceOf',
       parameters: [':currentActionIpfsId'],
       returnValueTest: {
@@ -40,7 +40,7 @@ const genProvider = () => {
 const genWallet = () => {
 // known private key for testing
 // replace with your own key
-return new ethers.Wallet('e380c49660aab954c08cf8aa6810d4426a73b370cac94b64ee42168634e649ff', genProvider());
+return new ethers.Wallet('', genProvider());
 }
 
 const main = async () => {
