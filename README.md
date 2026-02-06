@@ -1,3 +1,5 @@
+BANSHEE uses both Lit Protocol and Livepeer
+
 ### Decentralized token gated video using Lit Protocol and Livepeer
 
 This project demonstrates a video hosted on Livepeer that is token gated using Lit Protocol.
